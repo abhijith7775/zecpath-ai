@@ -1,0 +1,10 @@
+# Real resume documents
+data/raw/resumes/*.pdf
+data/raw/resumes/*.docx
+
+# Processed resume data
+data/processed/resumes/*.txt
+data/processed/resumes/*.json
+
+# Logs
+logs/*.log
