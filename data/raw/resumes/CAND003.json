@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2022-08",
+                           "responsibilities":  [
+                                                    "Develop deep learning models",
+                                                    "Deploy ML pipelines"
+                                                ],
+                           "company":  "AI Labs",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Machine Learning Engineer",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2022-05",
+                               "issuing_organization":  "DeepLearning.AI",
+                               "name":  "Deep Learning Specialization"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "Python",
+                       "category":  "technical",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  4
+                   },
+                   {
+                       "skill_name":  "TensorFlow",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "PyTorch",
+                       "category":  "tool",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "Docker",
+                       "category":  "tool",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   }
+               ],
+    "candidate_id":  "CAND003",
+    "total_experience_years":  4,
+    "personal_information":  {
+                                 "email":  "rahul@example.com",
+                                 "full_name":  "Rahul Menon",
+                                 "location":  "Chennai, Tamil Nadu",
+                                 "phone":  "9876543212"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2022,
+                          "field_of_study":  "Artificial Intelligence",
+                          "grade":  "8.7 CGPA",
+                          "degree":  "M.Tech",
+                          "institution":  "National Institute of Technology"
+                      }
+                  ],
+    "professional_summary":  "Machine Learning Engineer specializing in deep learning and model deployment."
+}

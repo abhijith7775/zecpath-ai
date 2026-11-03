@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2022-01",
+                           "responsibilities":  [
+                                                    "Prepare financial statements",
+                                                    "Manage GST records"
+                                                ],
+                           "company":  "Finance Associates",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Accountant",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2021-11",
+                               "issuing_organization":  "Tally Education",
+                               "name":  "Tally ERP Certification"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "Accounting",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  4
+                   },
+                   {
+                       "skill_name":  "Tally",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "GST",
+                       "category":  "domain",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Excel",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  4
+                   }
+               ],
+    "candidate_id":  "CAND006",
+    "total_experience_years":  4,
+    "personal_information":  {
+                                 "email":  "vishnu@example.com",
+                                 "full_name":  "Vishnu S",
+                                 "location":  "Trivandrum, Kerala",
+                                 "phone":  "9876543215"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2021,
+                          "field_of_study":  "Commerce",
+                          "grade":  "75%",
+                          "degree":  "B.Com",
+                          "institution":  "University of Kerala"
+                      }
+                  ],
+    "professional_summary":  "Accountant experienced in financial reporting and taxation."
+}

@@ -1,0 +1,53 @@
+{
+    "job_id": "JOB004",
+    "job_title": "Frontend Developer",
+    "company": "Zecpath",
+    "department": "Technical",
+    "job_type": "full-time",
+    "work_mode": "hybrid",
+    "location": "Kochi, Kerala",
+    "job_description": "We are hiring a Frontend Developer to join our team.",
+    "required_skills": [
+        {
+            "skill_name": "HTML",
+            "category": "technical",
+            "is_mandatory": true
+        },
+        {
+            "skill_name": "CSS",
+            "category": "technical",
+            "is_mandatory": true
+        },
+        {
+            "skill_name": "JavaScript",
+            "category": "technical",
+            "is_mandatory": true
+        },
+        {
+            "skill_name": "React",
+            "category": "technical",
+            "is_mandatory": true
+        }
+    ],
+    "preferred_skills": [],
+    "experience_requirements": {
+        "minimum_years": 1,
+        "maximum_years": 4,
+        "experience_level": "entry-level"
+    },
+    "education_requirements": [
+        {
+            "degree": "Bachelor's Degree",
+            "field_of_study": null,
+            "is_mandatory": true
+        }
+    ],
+    "certifications": [],
+    "responsibilities": [
+        "Perform professional responsibilities as a Frontend Developer",
+        "Collaborate with team members",
+        "Prepare regular work reports"
+    ],
+    "salary_range": null,
+    "application_deadline": null
+}

@@ -1,0 +1,163 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Zecpath Candidate Resume Schema",
+  "description": "Standard structure for extracted candidate resume information",
+  "type": "object",
+  "required": [
+    "candidate_id",
+    "personal_information",
+    "skills",
+    "education",
+    "experience",
+    "certifications"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": "string"
+    },
+    "personal_information": {
+      "type": "object",
+      "required": ["full_name", "email"],
+      "properties": {
+        "full_name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "phone": {
+          "type": ["string", "null"]
+        },
+        "location": {
+          "type": ["string", "null"]
+        },
+        "linkedin": {
+          "type": ["string", "null"]
+        },
+        "portfolio": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "professional_summary": {
+      "type": ["string", "null"]
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["skill_name", "category"],
+        "properties": {
+          "skill_name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "technical",
+              "soft",
+              "tool",
+              "domain",
+              "language",
+              "other"
+            ]
+          },
+          "proficiency": {
+            "type": ["string", "null"]
+          },
+          "years_of_experience": {
+            "type": ["number", "null"],
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["degree", "institution"],
+        "properties": {
+          "degree": {
+            "type": "string"
+          },
+          "institution": {
+            "type": "string"
+          },
+          "field_of_study": {
+            "type": ["string", "null"]
+          },
+          "graduation_year": {
+            "type": ["integer", "null"]
+          },
+          "grade": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["company", "designation"],
+        "properties": {
+          "company": {
+            "type": "string"
+          },
+          "designation": {
+            "type": "string"
+          },
+          "employment_type": {
+            "type": ["string", "null"]
+          },
+          "start_date": {
+            "type": ["string", "null"]
+          },
+          "end_date": {
+            "type": ["string", "null"]
+          },
+          "is_current": {
+            "type": "boolean",
+            "default": false
+          },
+          "responsibilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "issuing_organization": {
+            "type": ["string", "null"]
+          },
+          "issue_date": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "total_experience_years": {
+      "type": ["number", "null"],
+      "minimum": 0
+    },
+    "source": {
+      "type": ["string", "null"]
+    }
+  },
+  "additionalProperties": false
+}

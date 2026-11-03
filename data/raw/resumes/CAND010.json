@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2022-03",
+                           "responsibilities":  [
+                                                    "Prepare CAD designs",
+                                                    "Monitor manufacturing quality"
+                                                ],
+                           "company":  "Industrial Engineering Ltd",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Mechanical Engineer",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2022-07",
+                               "issuing_organization":  "Autodesk",
+                               "name":  "AutoCAD Professional"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "AutoCAD",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "SolidWorks",
+                       "category":  "tool",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "Mechanical Design",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Quality Control",
+                       "category":  "domain",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   }
+               ],
+    "candidate_id":  "CAND010",
+    "total_experience_years":  4,
+    "personal_information":  {
+                                 "email":  "nikhil@example.com",
+                                 "full_name":  "Nikhil Mohan",
+                                 "location":  "Coimbatore, Tamil Nadu",
+                                 "phone":  "9876543219"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2021,
+                          "field_of_study":  "Mechanical Engineering",
+                          "grade":  "8.0 CGPA",
+                          "degree":  "B.Tech",
+                          "institution":  "Engineering College"
+                      }
+                  ],
+    "professional_summary":  "Mechanical Engineer experienced in CAD design and manufacturing processes."
+}

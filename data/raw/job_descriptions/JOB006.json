@@ -1,0 +1,48 @@
+{
+    "job_id": "JOB006",
+    "job_title": "HR Executive",
+    "company": "Zecpath",
+    "department": "Non-technical",
+    "job_type": "full-time",
+    "work_mode": "hybrid",
+    "location": "Kochi, Kerala",
+    "job_description": "We are hiring a HR Executive to join our team.",
+    "required_skills": [
+        {
+            "skill_name": "Recruitment",
+            "category": "domain",
+            "is_mandatory": true
+        },
+        {
+            "skill_name": "Communication",
+            "category": "domain",
+            "is_mandatory": true
+        },
+        {
+            "skill_name": "HRMS",
+            "category": "domain",
+            "is_mandatory": true
+        }
+    ],
+    "preferred_skills": [],
+    "experience_requirements": {
+        "minimum_years": 1,
+        "maximum_years": 4,
+        "experience_level": "entry-level"
+    },
+    "education_requirements": [
+        {
+            "degree": "Bachelor's Degree",
+            "field_of_study": null,
+            "is_mandatory": true
+        }
+    ],
+    "certifications": [],
+    "responsibilities": [
+        "Perform professional responsibilities as a HR Executive",
+        "Collaborate with team members",
+        "Prepare regular work reports"
+    ],
+    "salary_range": null,
+    "application_deadline": null
+}

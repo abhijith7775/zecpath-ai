@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2022-06",
+                           "responsibilities":  [
+                                                    "Manage SEO campaigns",
+                                                    "Analyze website traffic"
+                                                ],
+                           "company":  "Digital Growth Agency",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Digital Marketing Executive",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2023-01",
+                               "issuing_organization":  "Google",
+                               "name":  "Google Analytics Certification"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "SEO",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Google Analytics",
+                       "category":  "tool",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "Social Media Marketing",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Content Writing",
+                       "category":  "soft",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   }
+               ],
+    "candidate_id":  "CAND005",
+    "total_experience_years":  4,
+    "personal_information":  {
+                                 "email":  "sneha@example.com",
+                                 "full_name":  "Sneha Raj",
+                                 "location":  "Mumbai, Maharashtra",
+                                 "phone":  "9876543214"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2021,
+                          "field_of_study":  "Marketing",
+                          "grade":  "8.1 CGPA",
+                          "degree":  "BBA",
+                          "institution":  "Mumbai University"
+                      }
+                  ],
+    "professional_summary":  "Digital Marketing Executive experienced in SEO and social media campaigns."
+}

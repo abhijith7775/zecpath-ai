@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2023-01",
+                           "responsibilities":  [
+                                                    "Coordinate recruitment",
+                                                    "Manage employee records"
+                                                ],
+                           "company":  "People First",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "HR Executive",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2022-08",
+                               "issuing_organization":  "Coursera",
+                               "name":  "Human Resource Management"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "Recruitment",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Communication",
+                       "category":  "soft",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  4
+                   },
+                   {
+                       "skill_name":  "HRMS",
+                       "category":  "tool",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "Interview Coordination",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   }
+               ],
+    "candidate_id":  "CAND004",
+    "total_experience_years":  3,
+    "personal_information":  {
+                                 "email":  "anjali@example.com",
+                                 "full_name":  "Anjali Thomas",
+                                 "location":  "Kochi, Kerala",
+                                 "phone":  "9876543213"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2022,
+                          "field_of_study":  "Human Resource Management",
+                          "grade":  "8.0 CGPA",
+                          "degree":  "MBA",
+                          "institution":  "Kerala University"
+                      }
+                  ],
+    "professional_summary":  "HR Executive experienced in recruitment and employee engagement."
+}

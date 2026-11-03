@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2023-02",
+                           "responsibilities":  [
+                                                    "Design user interfaces",
+                                                    "Conduct usability testing"
+                                                ],
+                           "company":  "Creative Studio",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "UI UX Designer",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2022-09",
+                               "issuing_organization":  "Google",
+                               "name":  "Google UX Design"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "Figma",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Wireframing",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Prototyping",
+                       "category":  "technical",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "User Research",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  2
+                   }
+               ],
+    "candidate_id":  "CAND007",
+    "total_experience_years":  3,
+    "personal_information":  {
+                                 "email":  "meera@example.com",
+                                 "full_name":  "Meera Joseph",
+                                 "location":  "Bangalore, Karnataka",
+                                 "phone":  "9876543216"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2022,
+                          "field_of_study":  "Communication Design",
+                          "grade":  "8.4 CGPA",
+                          "degree":  "B.Des",
+                          "institution":  "Design Institute"
+                      }
+                  ],
+    "professional_summary":  "UI UX Designer experienced in user research and interface prototyping."
+}

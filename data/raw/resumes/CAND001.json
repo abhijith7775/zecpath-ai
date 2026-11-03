@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2023-01",
+                           "responsibilities":  [
+                                                    "Develop web applications",
+                                                    "Maintain backend APIs"
+                                                ],
+                           "company":  "Tech Solutions",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Software Developer",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2022-06",
+                               "issuing_organization":  "Coursera",
+                               "name":  "Python Programming"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "Python",
+                       "category":  "technical",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "JavaScript",
+                       "category":  "technical",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "React",
+                       "category":  "technical",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "SQL",
+                       "category":  "technical",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   }
+               ],
+    "candidate_id":  "CAND001",
+    "total_experience_years":  3,
+    "personal_information":  {
+                                 "email":  "arun@example.com",
+                                 "full_name":  "Arun Kumar",
+                                 "location":  "Kochi, Kerala",
+                                 "phone":  "9876543210"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2022,
+                          "field_of_study":  "Computer Science",
+                          "grade":  "8.2 CGPA",
+                          "degree":  "B.Tech",
+                          "institution":  "ABC Engineering College"
+                      }
+                  ],
+    "professional_summary":  "Software Developer with 3 years of experience building web applications."
+}

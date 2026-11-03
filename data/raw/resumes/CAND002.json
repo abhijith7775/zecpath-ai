@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2023-07",
+                           "responsibilities":  [
+                                                    "Build predictive models",
+                                                    "Analyze business datasets"
+                                                ],
+                           "company":  "Data Insights",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Data Scientist",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2023-03",
+                               "issuing_organization":  "Coursera",
+                               "name":  "Machine Learning Specialization"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "Python",
+                       "category":  "technical",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Machine Learning",
+                       "category":  "technical",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "Pandas",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "SQL",
+                       "category":  "technical",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   }
+               ],
+    "candidate_id":  "CAND002",
+    "total_experience_years":  3,
+    "personal_information":  {
+                                 "email":  "priya@example.com",
+                                 "full_name":  "Priya Nair",
+                                 "location":  "Bangalore, Karnataka",
+                                 "phone":  "9876543211"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2023,
+                          "field_of_study":  "Data Science",
+                          "grade":  "8.5 CGPA",
+                          "degree":  "M.Sc",
+                          "institution":  "XYZ University"
+                      }
+                  ],
+    "professional_summary":  "Data Scientist experienced in statistical analysis and predictive modelling."
+}

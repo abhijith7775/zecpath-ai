@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2022-05",
+                           "responsibilities":  [
+                                                    "Generate new leads",
+                                                    "Maintain customer relationships"
+                                                ],
+                           "company":  "SalesPro",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Sales Executive",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2022-12",
+                               "issuing_organization":  "Coursera",
+                               "name":  "Sales Management"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "Negotiation",
+                       "category":  "soft",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Communication",
+                       "category":  "soft",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  4
+                   },
+                   {
+                       "skill_name":  "CRM",
+                       "category":  "tool",
+                       "proficiency":  "Intermediate",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "Lead Generation",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   }
+               ],
+    "candidate_id":  "CAND009",
+    "total_experience_years":  4,
+    "personal_information":  {
+                                 "email":  "kiran@example.com",
+                                 "full_name":  "Kiran Das",
+                                 "location":  "Kozhikode, Kerala",
+                                 "phone":  "9876543218"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2021,
+                          "field_of_study":  "Business Administration",
+                          "grade":  "78%",
+                          "degree":  "BBA",
+                          "institution":  "Calicut University"
+                      }
+                  ],
+    "professional_summary":  "Sales Executive experienced in customer acquisition and business development."
+}

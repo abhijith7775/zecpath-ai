@@ -1,0 +1,68 @@
+﻿{
+    "source":  "synthetic",
+    "experience":  [
+                       {
+                           "start_date":  "2022-10",
+                           "responsibilities":  [
+                                                    "Gather business requirements",
+                                                    "Prepare analytical reports"
+                                                ],
+                           "company":  "Business Solutions",
+                           "is_current":  true,
+                           "employment_type":  "Full-time",
+                           "designation":  "Business Analyst",
+                           "end_date":  null
+                       }
+                   ],
+    "certifications":  [
+                           {
+                               "issue_date":  "2023-04",
+                               "issuing_organization":  "Microsoft",
+                               "name":  "Power BI Data Analyst"
+                           }
+                       ],
+    "skills":  [
+                   {
+                       "skill_name":  "SQL",
+                       "category":  "technical",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   },
+                   {
+                       "skill_name":  "Power BI",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  2
+                   },
+                   {
+                       "skill_name":  "Excel",
+                       "category":  "tool",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  4
+                   },
+                   {
+                       "skill_name":  "Requirements Analysis",
+                       "category":  "domain",
+                       "proficiency":  "Advanced",
+                       "years_of_experience":  3
+                   }
+               ],
+    "candidate_id":  "CAND008",
+    "total_experience_years":  3,
+    "personal_information":  {
+                                 "email":  "adithya@example.com",
+                                 "full_name":  "Adithya Varma",
+                                 "location":  "Hyderabad, Telangana",
+                                 "phone":  "9876543217"
+                             },
+    "education":  [
+                      {
+                          "graduation_year":  2022,
+                          "field_of_study":  "Business Analytics",
+                          "grade":  "8.3 CGPA",
+                          "degree":  "MBA",
+                          "institution":  "Osmania University"
+                      }
+                  ],
+    "professional_summary":  "Business Analyst skilled in requirements gathering and business intelligence."
+}

@@ -1,0 +1,160 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Zecpath Job Description Schema",
+  "description": "Standard structure for extracted job description information",
+  "type": "object",
+  "required": [
+    "job_id",
+    "job_title",
+    "company",
+    "job_type",
+    "required_skills",
+    "experience_requirements",
+    "responsibilities"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "department": {
+      "type": ["string", "null"]
+    },
+    "job_type": {
+      "type": "string",
+      "enum": [
+        "full-time",
+        "part-time",
+        "contract",
+        "internship",
+        "freelance"
+      ]
+    },
+    "work_mode": {
+      "type": ["string", "null"],
+      "enum": [
+        "remote",
+        "hybrid",
+        "onsite",
+        null
+      ]
+    },
+    "location": {
+      "type": ["string", "null"]
+    },
+    "job_description": {
+      "type": ["string", "null"]
+    },
+    "required_skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["skill_name", "category"],
+        "properties": {
+          "skill_name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "technical",
+              "soft",
+              "tool",
+              "domain",
+              "language",
+              "other"
+            ]
+          },
+          "is_mandatory": {
+            "type": "boolean",
+            "default": true
+          }
+        }
+      }
+    },
+    "preferred_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "experience_requirements": {
+      "type": "object",
+      "required": ["minimum_years", "maximum_years"],
+      "properties": {
+        "minimum_years": {
+          "type": "number",
+          "minimum": 0
+        },
+        "maximum_years": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "experience_level": {
+          "type": ["string", "null"],
+          "enum": [
+            "fresher",
+            "entry-level",
+            "mid-level",
+            "senior",
+            "lead",
+            null
+          ]
+        }
+      }
+    },
+    "education_requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": {
+            "type": "string"
+          },
+          "field_of_study": {
+            "type": ["string", "null"]
+          },
+          "is_mandatory": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "responsibilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "salary_range": {
+      "type": ["object", "null"],
+      "properties": {
+        "minimum": {
+          "type": ["number", "null"]
+        },
+        "maximum": {
+          "type": ["number", "null"]
+        },
+        "currency": {
+          "type": "string"
+        }
+      }
+    },
+    "application_deadline": {
+      "type": ["string", "null"]
+    }
+  },
+  "additionalProperties": false
+}
